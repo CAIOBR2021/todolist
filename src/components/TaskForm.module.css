@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.form input {
+    padding: 8px 15px;
+    margin-bottom: 1.5em;
+    border-radius: 0;
+    border: 1px solid #333652;
+    outline: none;
+    background: #E9EAEC;
+}
+
+.form input:focus {
+    border: none;
+    outline: 3px solid #333652;
+}
+
+.form input[type="submit"] {
+    font-family: 'Gloria Hallelujah', cursive;
+    background: #333652;
+    border: 1px solid #333652;
+    color: #90ADC6;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background: #333652;
+    font-weight: bold;
+    color: #FAD02C;
+    border-color: #333652;
+
+} 
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input_container label {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
